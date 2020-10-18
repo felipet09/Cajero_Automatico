@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="ejemplo.cajero.modelo.Cuenta" project="ejemplo-cajero-automatico" 
+    file="/ejemplo-cajero-automatico/src/ejemplo/cajero/modelo/Cuenta.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="181" x="657" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="ejemplo.cajero.control.Comando" project="ejemplo-cajero-automatico" 
+    file="/ejemplo-cajero-automatico/src/ejemplo/cajero/control/Comando.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="127" x="1139" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="Logger" project="ejemplo-cajero-automatico" 
+    file="/ejemplo-cajero-automatico/src/Logger.aj" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="126" x="119" y="186"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="ejemplo.cajero.Cajero" project="ejemplo-cajero-automatico" 
+    file="/ejemplo-cajero-automatico/src/ejemplo/cajero/Cajero.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="332" x="285" y="186"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="ejemplo.cajero.modelo.Banco" project="ejemplo-cajero-automatico" 
+    file="/ejemplo-cajero-automatico/src/ejemplo/cajero/modelo/Banco.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="184" x="657" y="186"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="ejemplo.cajero.control.ComandoTransferir" project="ejemplo-cajero-automatico" 
+    file="/ejemplo-cajero-automatico/src/ejemplo/cajero/control/ComandoTransferir.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="134" x="881" y="186"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="ejemplo.cajero.control.ComandoRetirar" project="ejemplo-cajero-automatico" 
+    file="/ejemplo-cajero-automatico/src/ejemplo/cajero/control/ComandoRetirar.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="127" x="1055" y="186"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="ejemplo.cajero.control.ComandoConsignar" project="ejemplo-cajero-automatico" 
+    file="/ejemplo-cajero-automatico/src/ejemplo/cajero/control/ComandoConsignar.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="136" x="1222" y="186"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="ejemplo.cajero.control.ComandoListarCuentas" project="ejemplo-cajero-automatico" 
+    file="/ejemplo-cajero-automatico/src/ejemplo/cajero/control/ComandoListarCuentas.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="158" x="1398" y="186"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="10">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <association id="11">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="12" name="cuentas"/>      
+      <multiplicity id="13" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="14">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <realization id="15">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <realization id="16">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
